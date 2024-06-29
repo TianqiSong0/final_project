@@ -4,11 +4,13 @@
 import pandas as pd
 
 #read the files and convert sheets into dictionaries
+data = {} 
 filelist = ['legumes.xlsx', 'potatoes.xlsx', 'vegcan.xlsx', 'vegfr.xlsx', 'vegfrz.xlsx', 'vegprc.xlsx', 'vegtot.xlsx', 'veg.xlsx']
 for f in filelist:
-    
     fh = pd.read_excel(f,sheet_name=None)
-    f1 = fh['DryBeans']
+    for k, V in fh.items():
+        data[k] = V
+    
 #%%    
     carrots = fh['Canned carrots']
 print(fh)
