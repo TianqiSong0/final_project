@@ -12,10 +12,10 @@ To achieve the goal, the project will:
 ## Plot part
 1. Import `matplotlib.pyplot` 
 2. Divide data into four catagories as one plot will be too unfriendly to read: 
-    + % of loss from retail/institutional to consumers (decreased>=50%)
-    + % of loss from retail/institutional to consumers (decreased<50%)
-    + % of loss from retail/institutional to consumers (increased>=50%)
-    + % of loss from retail/institutional to consumers (increased<50%)
+    + [% of loss from retail/institutional to consumers (decreased>=50%)](decreased_over50.png)
+    + [% of loss from retail/institutional to consumers (decreased<50%)](decreased_small_than50.png)
+    + [% of loss from retail/institutional to consumers (increased>=50%)](increased_over50.png)
+    + [% of loss from retail/institutional to consumers (increased<50%)](increased_small_than50.png)
 3. Transpose and sort values
 4. Create four groups of plots
 5. Create total average losses plot
